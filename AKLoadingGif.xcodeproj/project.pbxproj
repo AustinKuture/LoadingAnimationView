@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D72586901E3703EA00EC8A16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D725868F1E3703EA00EC8A16 /* InfoPlist.strings */; };
 		D7733EA21E348EC600869009 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7733EA11E348EC600869009 /* main.m */; };
 		D7733EA51E348EC600869009 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7733EA41E348EC600869009 /* AppDelegate.m */; };
 		D7733EA81E348EC600869009 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7733EA71E348EC600869009 /* ViewController.m */; };
@@ -17,6 +18,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D72586891E37033B00EC8A16 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		D725868A1E37033B00EC8A16 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D725868B1E37034C00EC8A16 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		D725868C1E37034C00EC8A16 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		D725868D1E37035300EC8A16 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		D725868E1E37035300EC8A16 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		D725868F1E3703EA00EC8A16 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		D7733E9D1E348EC600869009 /* AKLoadingGif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKLoadingGif.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7733EA11E348EC600869009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7733EA31E348EC600869009 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,6 +79,7 @@
 				D7733EAC1E348EC600869009 /* Assets.xcassets */,
 				D7733EAE1E348EC600869009 /* LaunchScreen.storyboard */,
 				D7733EB11E348EC600869009 /* Info.plist */,
+				D725868F1E3703EA00EC8A16 /* InfoPlist.strings */,
 				D7733EA01E348EC600869009 /* Supporting Files */,
 			);
 			path = AKLoadingGif;
@@ -144,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7733EB01E348EC600869009 /* LaunchScreen.storyboard in Resources */,
+				D72586901E3703EA00EC8A16 /* InfoPlist.strings in Resources */,
 				D7733EAD1E348EC600869009 /* Assets.xcassets in Resources */,
 				D7733EAB1E348EC600869009 /* Main.storyboard in Resources */,
 			);
@@ -170,6 +180,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				D7733EAA1E348EC600869009 /* Base */,
+				D72586891E37033B00EC8A16 /* fr */,
+				D725868B1E37034C00EC8A16 /* zh-Hans */,
+				D725868D1E37035300EC8A16 /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -178,6 +191,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				D7733EAF1E348EC600869009 /* Base */,
+				D725868A1E37033B00EC8A16 /* fr */,
+				D725868C1E37034C00EC8A16 /* zh-Hans */,
+				D725868E1E37035300EC8A16 /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -189,6 +205,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -236,6 +253,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -316,6 +334,7 @@
 				D7733EB61E348EC600869009 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

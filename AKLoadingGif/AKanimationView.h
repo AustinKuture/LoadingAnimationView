@@ -16,4 +16,6 @@
 - (UIImageView *)animationViewFram:(CGRect)fram ImageName:(NSString *)imageName ImageCount:(NSInteger)imageCount AnimationTime:(float)animationTime;
 
 
+
+
 @end
